@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+#click-me {
+    width: 700px;
+    height: auto;
+    image-rendering: pixelated;
+    cursor: pointer;
+    display: block;
+    max-width: 100%;
+    max-height: 80vh;
+}
